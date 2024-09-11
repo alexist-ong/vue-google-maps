@@ -6,5 +6,7 @@
     </label>
 </template>
 
-<script src="../components-implementation/place-input.js">
+<script>
+import placeInput from "../components-implementation/place-input";
+export default ((x) => x.default || x)(placeInput)
 </script>
